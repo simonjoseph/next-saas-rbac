@@ -9,7 +9,7 @@ This project contains all the necessary boilerplate to setup a multi-tenant SaaS
 - [ ] It should be able to authenticate using e-mail & password;
 - [ ] It should be able to authenticate using Github account;
 - [ ] It should be able to recover password using e-mail;
-- [ ] It should be able to create an account (e-mail, name and password);
+- [ X ] It should be able to create an account (e-mail, name and password);
 
 ### Organizations
 
@@ -80,3 +80,5 @@ Roles & permissions.
 - Only owners may transfer organization ownership;
 - Only administrators and project authors may update/delete the project;
 - Members can leave their own organization;
+
+pnpm prisma db seed roda as seeds
